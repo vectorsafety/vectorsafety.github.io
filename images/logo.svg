@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="233px" height="46px" viewBox="0 0 233 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-605.000000, -457.000000)" fill="#FFFFFF">
+            <g id="Group" transform="translate(601.000000, 451.000000)">
+                <text id="v" font-family="CMUSerif-BoldSlanted, CMU Serif Extra" font-size="46" font-style="italic" font-weight="bold">
+                    <tspan x="0.0629882812" y="43">v</tspan>
+                </text>
+                <text id="ector-safety" font-family="CamphorPro-LightItalic" font-size="40" font-style="italic" font-weight="300">
+                    <tspan x="28.86" y="43">ector safety</tspan>
+                </text>
+                <path id="Line" d="M19.0677392,11.8 L7,11.8 L6.5,11.8 L6.5,10.8 L7,10.8 L19.0677392,10.8 L19.0677392,6.8 L28.0677392,11.3 L19.0677392,15.8 L19.0677392,11.8 Z" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

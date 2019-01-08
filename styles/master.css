@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "source-sans-pro";
+  src: url("../fonts/SourceSansPro-Regular.otf.woff") format('woff');
+  font-weight: 600;
+}
+@font-face {
+  font-family: "source-sans-pro";
+  src: url("../fonts/SourceSansPro-Semibold.otf.woff") format('woff');
+  font-weight: 700;
+}
+@font-face {
+  font-family: "source-sans-pro";
+  src: url("../fonts/SourceSansPro-Light.otf.woff") format('woff');
+  font-weight: normal;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+a {
+  color: inherit;
+}
+body {
+  background-image: linear-gradient(134deg, #3023ae 0%, #8c2727 100%);
+  font-family: 'source-sans-pro', "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100vh;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+header {
+  flex: 1;
+  display: flex;
+}
+header h1 {
+  display: block;
+  height: 61px;
+  width: 237px;
+  background: url("../images/logo.svg") no-repeat top left;
+  align-self: flex-end;
+}
+header h1 span {
+  display: none;
+}
+main.landing {
+  flex: 1;
+}
+section#mission h2 {
+  font-size: 21px;
+  display: block;
+  line-height: 30px;
+  text-align: center;
+  font-weight: normal;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+}
+footer p {
+  font-weight: 600;
+  font-size: 11px;
+  margin: 0px;
+  text-align: center;
+}
+footer:hover {
+  opacity: 1;
+}
